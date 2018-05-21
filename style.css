@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'LeagueMono-Light';
+    src: url('fonts/LeagueMono-Light.eot'); /* IE9 Compat Modes */
+    src: url('fonts/LeagueMono-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/LeagueMono-Light.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/LeagueMono-Light.woff') format('woff'), /* Pretty Modern Browsers */
+         url('fonts/LeagueMono-Light.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'LeagueMono-Bold';
+    src: url('fonts/LeagueMono-Bold.eot'); /* IE9 Compat Modes */
+    src: url('fonts/LeagueMono-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/LeagueMono-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/LeagueMono-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+         url('fonts/LeagueMono-Bold.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+html,body {
+    margin:0;
+}
+
+body {
+    background-color: #272724;
+    font-family: 'LeagueMono-Light', monospace;
+    color: #F1F3D8;
+}
+
+a.logo {
+    display: block;
+    width: 35px;
+    height: 52px;
+    background: url('img/logo--design-challenge.png') no-repeat center;
+    background-size: 100%;
+    text-indent: -9999em;
+}
+
+div.container {
+    margin: 120px 0 0 120px;
+    width: 572px;
+}
+
+p.lede {
+    font-size: 56px;
+    line-height: 72px;
+}
