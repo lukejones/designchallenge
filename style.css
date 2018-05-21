@@ -21,9 +21,10 @@ html,body {
 }
 
 body {
-    background-color: #272724;
     font-family: 'LeagueMono-Light', monospace;
     color: #F1F3D8;
+    background: url('img/bg.svg') top right no-repeat #272724;
+    background-size: auto 100%;
 }
 
 a.logo {
@@ -36,11 +37,71 @@ a.logo {
 }
 
 div.container {
-    margin: 120px 0 0 120px;
-    width: 572px;
+    position: relative;
+    padding: 120px 0 0 120px;
+    width: 692px;
+    height: 100vh;
+    box-sizing: border-box;
 }
 
 p.lede {
+    margin: 40px 0;
     font-size: 56px;
     line-height: 72px;
+}
+
+.newsletter-signup {
+    display: block;
+    background: #171715;
+    border-radius: 4px;
+}
+
+input.email {
+    display: inline-block;
+    width: 338px;
+    padding: 24px 32px;
+    box-sizing: border-box;
+    font-family: 'LeagueMono-Light', monospace;
+    border: none;
+    background: none;
+    font-size: 16px;
+    color: #F1F3D8;
+    line-height: 16px;
+}
+
+input.button {
+    display: inline-block;
+    width: 224px;
+    padding: 24px 32px;
+    box-sizing: border-box;
+    font-family: 'LeagueMono-Bold', monospace;
+    background: none;
+    font-size: 16px;
+    color: #1DB5C3;
+    text-align: center;
+    line-height: 16px;
+    border: none;
+}
+
+input.button:hover {
+    text-decoration: underline;
+    cursor: pointer
+}
+
+p.footer {
+    position: absolute;
+    left: 120px;
+    bottom: 120px;
+    font-family: 'LeagueMono-Light',monospace;
+    font-size: 12px;
+    color: #727366;
+    line-height: 16px;
+}
+
+p.footer a {
+    color: inherit;
+}
+
+p.footer a:hover {
+    color: #fff;
 }
