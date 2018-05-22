@@ -24,7 +24,6 @@ body {
     font-family: 'LeagueMono-Light', monospace;
     color: #F1F3D8;
     background: url('img/bg.svg') top right no-repeat #272724;
-    background-size: auto 100%;
 }
 
 a.logo {
