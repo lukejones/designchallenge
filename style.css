@@ -50,6 +50,7 @@ p.lede {
 }
 
 input.email {
+    display: inline-block;
     padding: 24px 0 24px 32px;
     box-sizing: border-box;
     width: 60%;
@@ -63,6 +64,7 @@ input.email {
 }
 
 input.button {
+    display: inline-block;
     padding: 24px 32px 24px 32px;
     box-sizing: border-box;
     font-family: 'LeagueMono-Bold', monospace;
