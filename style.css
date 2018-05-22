@@ -74,6 +74,7 @@ input.button {
     text-align: center;
     line-height: 16px;
     border: none;
+    -webkit-appearance: none;
 }
 
 input.button:hover {
