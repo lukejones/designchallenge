@@ -38,9 +38,8 @@ a.logo {
 
 div.container {
     position: relative;
-    padding: 120px 0 0 120px;
+    padding: 120px 0 80px 120px;
     width: 692px;
-    height: 100vh;
     box-sizing: border-box;
 }
 
@@ -89,9 +88,7 @@ input.button:hover {
 }
 
 p.footer {
-    position: absolute;
-    left: 120px;
-    bottom: 120px;
+    margin: 120px 0 0;
     font-family: 'LeagueMono-Light',monospace;
     font-size: 12px;
     color: #727366;
