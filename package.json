@@ -1,7 +1,7 @@
 {
-  "name": "markdownapp",
+  "name": "designchallenge",
   "version": "1.0.0",
-  "description": "Proof of concept for a markdown app",
+  "description": "",
   "scripts": {
     "build": "webpack-cli",
     "dev": "webpack-dev-server"
