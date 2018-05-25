@@ -1,6 +1,13 @@
 $f-league-bold: 'LeagueMono-Bold', monospace;
 $f-league-light: 'LeagueMono-Light', monospace;
 
+/* Font Scaling */
+$t-heading-primary: 32px;
+$t-heading-secondary: 24px;
+$t-heading-tertiary: 16px;
+$t-body: 16px;
+$t-small: 16px;
+
 /* Colors */
 
 $c-dark-bg:         #272724; /* Dark background */
