@@ -1,0 +1,6 @@
+[Settings]
+  ID = "designchallengexyz"
+
+[context.build-system]
+  command = "npm run build'" 
+  publish = "build"
