@@ -1,17 +1,13 @@
 @font-face {
   font-family: 'LeagueMono-Light';
-  src: url('/assets/fonts/LeagueMono-Light.eot'); /* IE9 Compat Modes */
-  src: url('/assets/fonts/LeagueMono-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/assets/fonts/LeagueMono-Light.woff2') format('woff2'), /* Super Modern Browsers */
+  src: url('/assets/fonts/LeagueMono-Light.woff2') format('woff2'), /* Super Modern Browsers */
        url('/assets/fonts/LeagueMono-Light.woff') format('woff'), /* Pretty Modern Browsers */
        url('/assets/fonts/LeagueMono-Light.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
 
 @font-face {
   font-family: 'LeagueMono-SemiBold';
-  src: url('/assets/fonts/LeagueMono-SemiBold.eot'); /* IE9 Compat Modes */
-  src: url('/assets/fonts/LeagueMono-SemiBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/assets/fonts/LeagueMono-SemiBold.woff2') format('woff2'), /* Super Modern Browsers */
+  src: url('/assets/fonts/LeagueMono-SemiBold.woff2') format('woff2'), /* Super Modern Browsers */
        url('/assets/fonts/LeagueMono-SemiBold.woff') format('woff'), /* Pretty Modern Browsers */
        url('/assets/fonts/LeagueMono-SemiBold.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
