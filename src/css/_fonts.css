@@ -8,10 +8,10 @@
 }
 
 @font-face {
-  font-family: 'LeagueMono-Bold';
-  src: url('/assets/fonts/LeagueMono-Bold.eot'); /* IE9 Compat Modes */
-  src: url('/assets/fonts/LeagueMono-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/assets/fonts/LeagueMono-Bold.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/assets/fonts/LeagueMono-Bold.woff') format('woff'), /* Pretty Modern Browsers */
-       url('/assets/fonts/LeagueMono-Bold.ttf')  format('truetype'); /* Safari, Android, iOS */
+  font-family: 'LeagueMono-SemiBold';
+  src: url('/assets/fonts/LeagueMono-SemiBold.eot'); /* IE9 Compat Modes */
+  src: url('/assets/fonts/LeagueMono-SemiBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/assets/fonts/LeagueMono-SemiBold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/assets/fonts/LeagueMono-SemiBold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/assets/fonts/LeagueMono-SemiBold.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
