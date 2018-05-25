@@ -2,5 +2,5 @@
   ID = "designchallengexyz"
 
 [context.build-system]
-  command = "npm run build'" 
-  publish = "build"
+  command = "npm run build" 
+  publish = "build/"
