@@ -1,0 +1,12 @@
+{% macro listing(title, url, summary, index) %}
+<div class="challenge boxin" {% if index %}style="animation-delay: {{ 500 + (index * 75) }}ms"{% endif %}>
+  <h2 class="challenge__title" id="{{ url }}" href="/{{ url }}">
+    {{ title }} <a href="/#{{ url }}" class="anchor" title="{{ title }}" aria-hidden="true">Link</a>
+  </h2>
+
+  {% if summary %}
+  <p>{{ summary }}</p>
+  {% endif %}
+  <a class="chevron challenge__link" href="/{{ url }}">View brief</a>
+</div>
+{% endmacro %}

@@ -1,0 +1,27 @@
+@import "../_variables";
+
+.challenge {
+  height: 100%;
+
+  &__title {
+    font-size: $t-heading-secondary;
+    line-height: 1;
+    margin-bottom: 24px;
+  }
+
+  p {
+    margin: 10px 0 24px;
+  }
+
+  &__link {
+    color: #000;
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+  }
+}
+
+.challenge:nth-child(4n + 1) { background: $c-blueberry; }
+.challenge:nth-child(4n + 2) { background: $c-apple; }
+.challenge:nth-child(4n + 3) { background: $c-cherry; }
+.challenge:nth-child(4n + 4) { background: $c-apricot; }

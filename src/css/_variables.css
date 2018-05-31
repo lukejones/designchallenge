@@ -1,14 +1,15 @@
+@import "./_fonts";
 
 /* Fonts */
-$f-league-semibold: 'LeagueMono-SemiBold', monospace;
-$f-league-light: 'LeagueMono-Light', monospace;
+$f-league-semibold: 'LeagueMono', monospace;
+$f-league-light: 'LeagueMono', monospace;
 
 /* Font Scaling */
-$t-heading-primary: 32px;
-$t-heading-secondary: 24px;
-$t-heading-tertiary: 16px;
-$t-body: 16px;
-$t-small: 12px;
+$t-heading-primary: 2rem; /* 32px; */
+$t-heading-secondary: 1.5rem; /* 24px; */
+$t-heading-tertiary: 1rem; /* 16px; */
+$t-body: 1rem; /* 16px; */
+$t-small: 0.75rem; /* 12px; */
 
 /* Colors */
 $c-dark-bg:         #272724; /* Dark background */
@@ -20,6 +21,8 @@ $c-apricot:         #FCB541; /* Apricot (background color) */
 $c-text-lightbg:    #000000; /* Text on light or colored backgrounds */
 $c-text-darkbg:     #F1F3D8; /* Text on dark backgrounds */
 $c-text-grey:       #6E6E6E; /* Grey text for light backgrounds */
+$c-header-bg:       #f8f8f3;
+
 
 /*
 
@@ -32,7 +35,7 @@ h2			SemiBold, 24, 24
 p			Light, 16, 24
 a(block)	SemiBold, 16, 16
 
-Margins: 
+Margins:
 
 Margin between headings is 24px
 Margin between paragraphs is around 16px

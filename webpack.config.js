@@ -55,8 +55,8 @@ module.exports = env => {
     plugins: [
       new CleanWebpackPlugin(['./build']),
       new CopyWebpackPlugin([
-        { from: './src/fonts', to: './fonts' },
-        { from: './src/img', to: './img' },
+        { from: './src/fonts', to: './assets/fonts' },
+        { from: './src/img', to: './assets/img' },
         { from: './src/_redirects', to: './_redirects', toType: 'file' },
         { from: './src/favicon.ico', to: './favicon.ico' }
       ]),

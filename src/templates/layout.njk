@@ -1,12 +1,24 @@
 <html>
     <head>
-        <title>Markdown P.O.C.</title>
+        <title>Design challenge</title>
         <link rel="stylesheet" href="/assets/css/screen.css">
+        <meta name="viewport" content="initial-scale=1, width=device-width, user-scalable=no">
+        <meta name="theme-color" content="#272724">
     </head>
     <body>
-        <div class="main">
-            {% block main %}{% endblock %}
-        </div>
-        <script src="/assets/js/app.js"></script>
+      <header class="masthead">
+        <a href="/" class="masthead__logo">
+          <img src="/assets/img/logo--design-challenge.png" alt="">
+        </a>
+
+        <ul class="masthead__links">
+          <li><a href="#">Acknowledgements</a></li>
+          <li><a href="#">Become a contributor</a></li>
+        </ul>
+      </header>
+
+      {% block main %}{% endblock %}
+
+      <script src="/assets/js/app.js"></script>
     </body>
 </html>

@@ -1,0 +1,37 @@
+@import "../_variables";
+
+.intro-panel {
+  background: $c-dark-bg;
+
+  @media screen and (min-width: 70rem) {
+    position: fixed;
+    top: 92px;
+    left: 0;
+    max-width: 812px;
+    width: 50%;
+    height: 100%;
+  }
+
+  @media screen and (min-width: 86.875rem) {
+    width: 812px;
+  }
+}
+
+.intro-panel__title {
+  margin: 0;
+  color: #f1f3d8;
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: normal;
+  max-width: 572px;
+
+  @media screen and (min-width: 35rem) {
+    font-size: 32px;
+  }
+
+  @media screen and (min-width: 52rem) and (max-width: 69.9rem),
+  screen and (min-width: 86.875rem) {
+    font-size: 56px;
+    line-height: 72px;
+  }
+}

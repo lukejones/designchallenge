@@ -1,0 +1,75 @@
+@import "../_variables";
+
+.masthead {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5.125rem; /* 92px */
+  background: $c-header-bg;
+  z-index: 10;
+
+  @media screen and (min-width: 35rem) {
+    height: 5.75rem; /* 92px */
+  }
+
+  &::after {
+    content: '';
+    background: rgba(0,0,0,0.125);
+    mix-blend-mode: multiply;
+    height: 4px;
+    width: 100%;
+    position: absolute;
+    left: 812px;
+    bottom: -4px;
+    pointer-events: none;
+  }
+}
+
+.masthead__logo {
+  width: 82px;
+  height: 82px;
+  padding:  20px 25px;
+  display: inline-block;
+  border-right: 1px solid #ebebe8;
+
+  @media screen and (min-width: 35rem) {
+    width: 92px;
+    height: 92px;
+  }
+}
+
+.masthead__logo img {
+  display: block;
+  max-height: 100%;
+  height: auto;
+  width: auto;
+}
+
+.masthead__links {
+  list-style: none;
+  float: right;
+
+  li {
+    text-align: right;
+    display: block;
+    margin: 0 32px 5px 0;
+  }
+
+  a {
+    color: #000;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  @media screen and (min-width: 35rem) {
+    margin: 0;
+
+    li {
+      text-align: left;
+      display: inline-block;
+      margin: 32px 32px 32px 0;
+    }
+  }
+}
