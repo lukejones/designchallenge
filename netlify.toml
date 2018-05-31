@@ -1,6 +1,9 @@
 [Settings]
   ID = "designchallengexyz"
 
+[context.production]
+  publish = "landingpage/"
+
 [context.build-system]
-  command = "npm run build" 
+  command = "npm run build"
   publish = "build/"
