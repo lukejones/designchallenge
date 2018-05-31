@@ -4,6 +4,10 @@
 [context.production]
   publish = "landingpage/"
 
+[context.branch-deploy]
+  command = "npm run build"
+  publish = "build/"
+
 [context.build-system]
   command = "npm run build"
   publish = "build/"
