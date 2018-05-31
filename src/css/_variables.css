@@ -1,0 +1,41 @@
+
+/* Fonts */
+$f-league-semibold: 'LeagueMono-SemiBold', monospace;
+$f-league-light: 'LeagueMono-Light', monospace;
+
+/* Font Scaling */
+$t-heading-primary: 32px;
+$t-heading-secondary: 24px;
+$t-heading-tertiary: 16px;
+$t-body: 16px;
+$t-small: 12px;
+
+/* Colors */
+$c-dark-bg:         #272724; /* Dark background */
+$c-light-bg:        #F8F8F3; /* Light background */
+$c-blueberry:       #1DB5C3; /* Blueberry (background color & action text, e.g. link or button */
+$c-apple:           #70C445; /* Apple (background color) */
+$c-cherry:          #D84949; /* Cherry (background color) */
+$c-apricot:         #FCB541; /* Apricot (background color) */
+$c-text-lightbg:    #000000; /* Text on light or colored backgrounds */
+$c-text-darkbg:     #F1F3D8; /* Text on dark backgrounds */
+$c-text-grey:       #6E6E6E; /* Grey text for light backgrounds */
+
+/*
+
+Note for whoever does the next bit:
+
+line-height for everything but paragraphs should match the size of the text:
+
+h1			SemiBold, 32, 32
+h2			SemiBold, 24, 24
+p			Light, 16, 24
+a(block)	SemiBold, 16, 16
+
+Margins: 
+
+Margin between headings is 24px
+Margin between paragraphs is around 16px
+Margin-bottom of list items is 8px
+
+*/

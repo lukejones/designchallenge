@@ -1,0 +1,18 @@
+{% extends "./layout.njk" %}
+
+{% block main %}
+<h1>Markdown P.O.C.</h1>
+<ul class="challenge-list">
+  {% for challenge in challenges %}
+    <li class="challenge-list__item">
+      <div class="challenge">
+        <a class="challenge__link" href="/{{challenge.filename}}">{{ challenge.data.title }}</a>
+        {% if challenge.data.summary %}
+        <p>{{ challenge.data.summary }}</p>
+        {% endif %}
+      </div>
+    </li>
+  {% endfor %}
+</ul>
+{% endblock %}
+
