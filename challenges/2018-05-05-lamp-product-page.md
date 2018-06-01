@@ -1,5 +1,5 @@
 ---
-title: Lamp Product Page
+title: Lamp Product Cards
 summary: Anglepoise has decided it wants to create a more compelling way for people to view, understand, and purchase their popular 1227 lamps.
 ---
 
