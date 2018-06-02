@@ -6,7 +6,7 @@
 @import "./components/_masthead";
 @import "./components/_introPanel";
 @import "./components/_challengeList";
-@import "./components/_challenge";
+@import "./components/_challengeCard";
 @import "./components/_brief";
 
 *, *::before, *::after {

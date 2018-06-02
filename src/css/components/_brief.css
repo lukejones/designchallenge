@@ -1,8 +1,10 @@
 .brief {
-  background: #f8f8f3;
+  background: $c-light-bg;
   max-width: 1088px;
+  min-height: 100%;
 
   @media $from-medium {
+    min-height: initial;
     width: calc(100% - 80px);
     margin: 40px auto 80px;
     border-radius: 4px;
@@ -10,13 +12,13 @@
   }
 }
 
-
 .brief__header {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid #ebebe8;
+  border-bottom: 1px solid $c-light-border;
   padding: 32px;
   font-size: $t-small;
+  line-height: 1.125rem;
   text-transform: uppercase;
 
   .back-link {
@@ -31,7 +33,6 @@
     }
   }
 }
-
 
 .brief__content {
   padding: 40px;
@@ -54,7 +55,6 @@
     max-width: 675px;
     margin: 60px auto;
   }
-
 }
 
 .brief__content h1 {
@@ -79,11 +79,11 @@
   line-height: 1.5rem;
 }
 
-
 .brief__footer {
-  border-top: 1px solid #ebebe8;
-  color: #6e6e6e;
+  border-top: 1px solid $c-light-border;
+  color: $c-text-grey;
   padding: 40px;
+
   p {
     font-size: $t-small;
     line-height: 1.125rem;

@@ -9,11 +9,15 @@
   vertical-align: middle;
   opacity: 0.2;
   transition: opacity 200ms cubic-bezier(0.42, 0.68, 0.42, 1);
+
   &:hover {
     opacity: 1;
   }
 }
 
+.bare-list {
+  list-style: none;
+}
 
 .boxin {
   padding: 26px 40px 40px;
@@ -31,12 +35,9 @@
   margin-right: 5px;
 }
 
-.chevron--creme::before { color: #f1f3d8; }
+.chevron--creme::before { color: $c-text-darkbg; }
 
-.bare-list {
-  list-style: none;
-}
-
-.tc-blueberry {
-  color: $c-blueberry;
-}
+.tc-blueberry { color: $c-blueberry; }
+.tc-apple { color: $c-apple; }
+.tc-cherry { color: $c-cherry; }
+.tc-apricot { color: $c-apricot; }

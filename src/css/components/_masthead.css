@@ -4,7 +4,7 @@
   left: 0;
   width: 100%;
   height: 5.125rem; /* 82px */
-  background: $c-header-bg;
+  background: $c-light-bg;
   z-index: 10;
 
   @media $from-small {

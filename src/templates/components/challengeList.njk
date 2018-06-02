@@ -1,9 +1,9 @@
-{% from "./challenge.njk" import listing %}
+{% from "./challengeCard.njk" import challengeCard %}
 
 {% macro challengeList(challenges) %}
 <section class="challenge-list">
   {% for challenge in challenges %}
-    {{ listing(challenge.data.title, challenge.slug, challenge.data.summary, index=loop.index) }}
+    {{ challengeCard(challenge.data.title, challenge.slug, challenge.data.summary, index=loop.index) }}
   {% endfor %}
 </section>
 {% endmacro %}
