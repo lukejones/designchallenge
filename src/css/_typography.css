@@ -1,0 +1,83 @@
+@import "./_variables";
+/*
+h1			SemiBold, 32, 32
+h2			SemiBold, 24, 24
+p			Light, 16, 24
+a(block)	SemiBold, 16, 16
+*/
+
+html {
+  font-family: $f-league-light;
+  -webkit-font-smoothing: antialiased;
+}
+
+.text-button {
+  appearance: none;
+  border: none;
+  padding: 0;
+  background: transparent;
+  color: inherit;
+  text-transform: inherit;
+  font: inherit;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+
+.back-link {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+a {
+  color: inherit;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+
+ul, ol {
+  margin-bottom: 1.5rem;
+
+  li {
+    margin-bottom: 0.5rem;
+    font-size: $t-body;
+    line-height: 1.5rem;
+  }
+}
+
+ul:not(.bare-list) li {
+  padding-left: 1.5rem;
+  &::before {
+    content: '•';
+    -webkit-font-smoothing: subpixel-antialiased;
+    display: inline-block;
+    font-weight: bold;
+    margin-left: -1rem;
+    margin-right: 1ex;
+  }
+}
+
+ol:not(.bare-list) {
+  counter-reset: list;
+}
+
+ol:not(.bare-list) li {
+  padding-left: 2rem;
+  &::before {
+    counter-increment: list;
+    content: counter(list)". ";
+    display: inline-block;
+    font-weight: bold;
+    margin-left: -1.75rem;
+    margin-right: 1ex;
+  }
+}

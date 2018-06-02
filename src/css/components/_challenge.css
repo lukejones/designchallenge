@@ -1,5 +1,3 @@
-@import "../_variables";
-
 .challenge {
   height: 100%;
 
@@ -7,9 +5,12 @@
     font-size: $t-heading-secondary;
     line-height: 1;
     margin-bottom: 24px;
+    font-weight: bold;
   }
 
   p {
+    font-size: $t-body;
+    line-height: 1.5rem;
     margin: 10px 0 24px;
   }
 

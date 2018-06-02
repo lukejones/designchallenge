@@ -30,3 +30,13 @@
   vertical-align: baseline;
   margin-right: 5px;
 }
+
+.chevron--creme::before { color: #f1f3d8; }
+
+.bare-list {
+  list-style: none;
+}
+
+.tc-blueberry {
+  color: $c-blueberry;
+}

@@ -24,11 +24,12 @@ const getSlugFromFilename = filename =>
 // aggregate markdown files from the challenge folder and parse the content as markdown
 const getChallenges = () => {
   const files = glob.sync('./challenges/**/*.md');
-  const data = files.map(f => {
+  const data = files.reverse().map(f => {
     const parsedFile = matter(fs.readFileSync(f, 'utf8'));
     return {
       // inject the slug for use later
-      filename: getSlugFromFilename(f),
+      filename: f,
+      slug: getSlugFromFilename(f),
       ...parsedFile,
       // replace the content with the markdown parsed content
       content: marked(parsedFile.content)
@@ -51,7 +52,7 @@ const getTemplatesToRender = () => {
     ...challenges.map(challenge => {
       return {
         from: "./src/templates/challenge.njk",
-          to: `./${challenge.filename}/index.html`,
+          to: `./${challenge.slug}/index.html`,
           context: challenge
       }
     })

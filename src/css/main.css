@@ -1,18 +1,16 @@
-/* @import "tachyons/src/tachyons"; */
 @import "_variables";
+@import "_reset";
+@import "_typography";
 @import "_utilities";
 
 @import "./components/_masthead";
 @import "./components/_introPanel";
 @import "./components/_challengeList";
 @import "./components/_challenge";
+@import "./components/_brief";
 
 *, *::before, *::after {
   box-sizing: border-box;
-}
-
-html {
-  font-family: $f-league-light;
 }
 
 body {
@@ -20,19 +18,7 @@ body {
   margin: 0;
   padding-top: 82px;
 
-  @media screen and (min-width: 35rem) {
+  @media $from-small {
     padding-top: 92px;
-  }
-}
-
-h1 {
-  font-size: $t-heading-primary;
-}
-
-.back-link {
-  text-decoration: none;
-
-  &:hover {
-    text-decoration: underline;
   }
 }

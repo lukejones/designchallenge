@@ -1,15 +1,13 @@
-@import "../_variables";
-
 .masthead {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 5.125rem; /* 92px */
+  height: 5.125rem; /* 82px */
   background: $c-header-bg;
   z-index: 10;
 
-  @media screen and (min-width: 35rem) {
+  @media $from-small {
     height: 5.75rem; /* 92px */
   }
 
@@ -20,7 +18,7 @@
     height: 4px;
     width: 100%;
     position: absolute;
-    left: 812px;
+    left: 0;
     bottom: -4px;
     pointer-events: none;
   }
@@ -33,7 +31,7 @@
   display: inline-block;
   border-right: 1px solid #ebebe8;
 
-  @media screen and (min-width: 35rem) {
+  @media $from-small {
     width: 92px;
     height: 92px;
   }
@@ -49,6 +47,7 @@
 .masthead__links {
   list-style: none;
   float: right;
+  padding: 10px 0;
 
   li {
     text-align: right;
@@ -57,14 +56,16 @@
   }
 
   a {
+    font-size: 1rem;
+    line-height: 24px;
     color: #000;
     &:hover {
       text-decoration: none;
     }
   }
 
-  @media screen and (min-width: 35rem) {
-    margin: 0;
+  @media $from-small {
+    padding: 0;
 
     li {
       text-align: left;

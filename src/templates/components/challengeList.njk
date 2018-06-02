@@ -1,9 +1,9 @@
 {% from "./challenge.njk" import listing %}
 
 {% macro challengeList(challenges) %}
-<div class="challenge-list">
+<section class="challenge-list">
   {% for challenge in challenges %}
-    {{ listing(challenge.data.title, challenge.filename, challenge.data.summary, index=loop.index) }}
+    {{ listing(challenge.data.title, challenge.slug, challenge.data.summary, index=loop.index) }}
   {% endfor %}
-</div>
+</section>
 {% endmacro %}

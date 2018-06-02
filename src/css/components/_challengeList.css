@@ -1,30 +1,28 @@
-@import "../_variables";
-
 .challenge-list {
   display: grid;
   grid-auto-columns: 1fr;
 
   /* Left positioning */
-  @media screen and (min-width: 70rem) {
+  @media $from-large {
     margin-left: 50%;
   }
 
-  @media screen and (min-width: 86.875rem) {
+  @media $from-super {
     margin-left: 812px;
   }
 
   /* grid definition */
-  @media screen and (min-width: 35rem) {
+  @media $from-small {
     grid-auto-rows: 1fr;
   }
 
-  @media screen and (min-width: 52rem) and (max-width: 69.9rem),
-  screen and (min-width: 101.5rem) {
+  @media $medium-to-large,
+  screen and (min-width: 1624px) {
     grid-template-columns: repeat(2, 50%);
     grid-auto-rows: 1fr;
   }
 
-  @media screen and (min-width: 133.125rem) {
+  @media $from-ultra {
     grid-template-columns: repeat(3, 33.333%);
     grid-auto-rows: 1fr;
   }

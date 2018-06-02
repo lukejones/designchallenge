@@ -1,18 +1,23 @@
 @import "../_variables";
 
 .intro-panel {
+  color: #f1f3d8;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
   background: $c-dark-bg;
 
-  @media screen and (min-width: 70rem) {
+  @media $from-large {
     position: fixed;
     top: 92px;
+    bottom: 0;
     left: 0;
     max-width: 812px;
     width: 50%;
-    height: 100%;
   }
 
-  @media screen and (min-width: 86.875rem) {
+  @media $from-super {
     width: 812px;
   }
 }
@@ -20,18 +25,34 @@
 .intro-panel__title {
   margin: 0;
   color: #f1f3d8;
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 40px;
   font-weight: normal;
   max-width: 572px;
 
-  @media screen and (min-width: 35rem) {
-    font-size: 32px;
+  @media $from-small {
+    font-size: 2rem;
   }
 
-  @media screen and (min-width: 52rem) and (max-width: 69.9rem),
-  screen and (min-width: 86.875rem) {
-    font-size: 56px;
+  @media $medium-to-large, $from-super {
+    font-size: 3.5rem;
     line-height: 72px;
+  }
+}
+
+.intro-links {
+  margin-top: 2.5rem;
+
+  a {
+    font-weight: bold;
+  }
+}
+
+.intro-panel__footer p {
+  font-size: $t-small;
+  line-height: 1rem;
+
+  @media $from-small {
+    margin-bottom: 1.5rem;
   }
 }
