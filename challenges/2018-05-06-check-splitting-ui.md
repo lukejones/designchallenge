@@ -1,6 +1,8 @@
 ---
 title: Check-Splitting UI
 summary: Design an application that can quickly split a check at a restaurant. The app should consider itemized bills, equal splits, and could also provide suggestions for tipping.
+author: Luke Jones
+authorurl: https://lukejones.me
 ---
 
 This exercise is to design an application that can quickly split a check at a restaurant. The app should consider itemized bills, equal splits, and could also provide suggestions for tipping.

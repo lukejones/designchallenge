@@ -1,6 +1,8 @@
 ---
 title: Lamp Product Cards
 summary: Anglepoise has decided it wants to create a more compelling way for people to view, understand, and purchase their popular 1227 lamps.
+author: Luke Jones
+authorurl: https://lukejones.me
 ---
 
 Anglepoise has decided it wants to create a more compelling way for people to view, understand, and purchase their popular 1227 lamps.

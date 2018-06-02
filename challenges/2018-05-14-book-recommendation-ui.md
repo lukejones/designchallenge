@@ -1,6 +1,8 @@
 ---
 title: Book Recommendation UI
 summary: Reading a book is a significant time investment and people want to know that the book they're about to read is worth their time. Suggest a user interface for book recommendations and ratings.
+author: Luke Jones
+authorurl: https://lukejones.me
 ---
 
 This exercise is to design the home screen and suggestion screen for a user interface (web or mobile) based around book suggestions or ratings. Users can rate existing books in order to refine their results or mark certain items as ‘not interested.’

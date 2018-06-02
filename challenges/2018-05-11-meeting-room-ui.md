@@ -1,6 +1,8 @@
 ---
 title: Meeting Room UI
 summary: A user interface on a small or large screen to let someone know whether a meeting room is free, how long for, and allow the person to book on the spot if necessary.
+author: Luke Jones
+authorurl: https://lukejones.me
 ---
 
 This exercise is to design a user interface on a small or large screen to let someone know whether a meeting room is free, how long for, and allow the person to book on the spot if necessary.
