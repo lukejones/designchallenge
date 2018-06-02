@@ -1,6 +1,8 @@
 ---
 title: Pet Daycare App
 summary: Design the workflow for finding someone to look after a pet, and to keep the pet owner updated with how their pet is doing while under care.
+author: Luke Jones
+authorurl: https://lukejones.me
 ---
 
 This exercise is to design the workflow for finding someone to look after a pet, and to keep the pet owner updated with how their pet is doing while under care. The user should be able to find someone who is able to care for their pet in the best way possible, and the carer should be able to update the pet owner with information about the pet.

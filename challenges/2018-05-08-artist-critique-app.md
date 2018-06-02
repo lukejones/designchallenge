@@ -1,6 +1,8 @@
 ---
 title: Artist Critique App
 summary: To get early feedback on creative ideas before sharing with the world. Write a user narrative for the following scenario that could be used to facilitate a 30 minute collaborative sketching session between designers, PMs, researchers, and engineers.
+author: Jessica Crabb
+authorurl: https://twitter.com/jessicaanncrabb
 ---
 
 _Thank you to [Jessica Crabb](https://twitter.com/jessicaanncrabb) for writing this challenge._

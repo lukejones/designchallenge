@@ -1,6 +1,8 @@
 ---
 title: Supermarket Product Finder
 summary: Help people in supermarkets figure out where they can get that difficult-to-find product and put it in their basket.
+author: Luke Jones
+authorurl: https://lukejones.me
 ---
 
 This exercise is to work out how best to help somebody who cannot find the product they want in the supermarket they are in. They may need to make sure they are in the correct location, make sure the item is available, and then know the precise aisle it is in (plus any other info if it is helpful).

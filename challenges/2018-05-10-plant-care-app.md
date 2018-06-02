@@ -1,6 +1,8 @@
 ---
 title: Plant Care App
 summary: Design an application that helps people take care of their plants at a basic level. This app should consider multiple kinds of plants requirements, notifications, and other tips around plant care.
+author: Luke Jones
+authorurl: https://lukejones.me
 ---
 
 This exercise is to design an application that helps people take care of their plants at a basic level. This app should consider multiple kinds of plants requirements, notifications, and other tips around plant care.
