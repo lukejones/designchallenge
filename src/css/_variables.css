@@ -22,6 +22,7 @@ $c-text-darkbg:     #F1F3D8; /* Text on dark backgrounds */
 $c-text-grey:       #6E6E6E; /* Grey text for light backgrounds */
 $c-light-border:    #EBEBE8;
 
+/* Media Queries */
 $from-small: screen and (min-width: 560px);
 $from-medium: screen and (min-width: 830px);
 $from-large: screen and (min-width: 1120px);
