@@ -1,17 +1,7 @@
 .anchor {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  background: url(/assets/img/link.svg) no-repeat center;
-  background-size: 20px 20px;
-  overflow: hidden;
-  text-indent: -999px;
-  vertical-align: middle;
-  opacity: 0.2;
-  transition: opacity 200ms cubic-bezier(0.42, 0.68, 0.42, 1);
-
+  text-decoration: none;
   &:hover {
-    opacity: 1;
+    text-decoration: underline;
   }
 }
 
