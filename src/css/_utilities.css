@@ -32,3 +32,11 @@
 .tc-apple { color: $c-apple; }
 .tc-cherry { color: $c-cherry; }
 .tc-apricot { color: $c-apricot; }
+
+.no-scroll {
+  overflow: hidden;
+}
+
+html.no-scroll {
+  height: 100%;
+}

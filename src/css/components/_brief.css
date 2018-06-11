@@ -2,6 +2,8 @@
   background: $c-light-bg;
   max-width: 1088px;
   min-height: 100%;
+  backface-visibility: hidden;
+  will-change: transform;
 
   @media $from-medium {
     min-height: initial;

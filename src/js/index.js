@@ -1,8 +1,11 @@
 // Load the CSS so that webpack can do its magic
 import '../css/main.css';
+import Routing from './Routing';
+import Clipboard from './Clipboard';
 
-// run a simple JS func, so we know this is all working
-const init = () => {
-  console.log('Hello world');
+const app = app || {
+  routing: new Routing(),
+  clipboard: new Clipboard(),
 };
-init();
+
+window.app = app;

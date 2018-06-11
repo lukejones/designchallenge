@@ -2,6 +2,8 @@
 {% from "./components/introPanel.njk" import introPanel %}
 {% from "./components/challengeList.njk" import challengeList %}
 
+{% set bodyClass = "js-has-routing" %}
+
 {% block main %}
   {{ introPanel() }}
   {{ challengeList(challenges) }}

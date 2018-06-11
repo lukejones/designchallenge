@@ -1,0 +1,75 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(39, 39, 36, 0.9);
+  overflow: auto;
+  animation: overlayIn 350ms both ease-out;
+
+  padding-top: 82px;
+  @media $from-small {
+    padding-top: 92px;
+  }
+
+  &.is-loading::after {
+    content: '';
+    width: 75px;
+    height: 75px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url(/assets/img/loading.png) no-repeat center;
+    background-size: contain;
+    animation: spin 1s infinite linear;
+  }
+}
+
+.overlay .brief {
+  animation: briefIn 1s .2s backwards cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.overlay.is-closing {
+  overflow: hidden;
+  animation: overlayOut 0.65s both ease-out;
+  .brief {
+    animation: overlayOut 0.45s forwards cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+}
+
+
+@keyframes overlayIn {
+  from {
+    opacity: 0;
+  }
+}
+
+@keyframes overlayOut {
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes briefIn {
+  from {
+    opacity: 0;
+    transform: translateY(50%);
+  }
+}
+
+@keyframes briefOut {
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(-360deg);
+  }
+}
