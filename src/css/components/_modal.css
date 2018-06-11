@@ -70,6 +70,6 @@
     transform: translate(-50%, -50%) rotate(0);
   }
   to {
-    transform: translate(-50%, -50%) rotate(-360deg);
+    transform: translate(-50%, -50%) rotate(360deg);
   }
 }
