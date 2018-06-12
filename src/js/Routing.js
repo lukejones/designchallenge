@@ -27,8 +27,6 @@ class Routing {
   }
 
   handleRoute = (location, action) => {
-    console.log(action, location.pathname, location.state)
-
     if (location.pathname !== '/') {
       this.loadBrief(location.pathname);
     } else {
@@ -67,10 +65,12 @@ class Routing {
 
   closeBrief = () => {
     const overlay = document.querySelector('.overlay');
+    if (!overlay) return false;
+
     const closeAnim = (e) => {
       if (e.target == overlay) {
         overlay.removeEventListener('animationend', closeAnim);
-        overlay.remove();
+        overlay.parentNode.removeChild(overlay);
         this.lockScroll(false);
       }
     };

@@ -38,7 +38,9 @@
     "postcss-mixins": "^6.2.0",
     "postcss-nested": "^3.0.0",
     "postcss-simple-vars": "^4.1.0",
-    "style-loader": "^0.21.0"
+    "promise-polyfill": "^8.0.0",
+    "style-loader": "^0.21.0",
+    "whatwg-fetch": "^2.0.4"
   },
   "devDependencies": {
     "axios": "^0.18.0",
@@ -46,6 +48,7 @@
     "babel-core": "^6.26.3",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-env": "^1.7.0",
+    "classlist-polyfill": "^1.2.0",
     "eslint": "^4.9.0",
     "eslint-config-prettier": "^2.6.0",
     "eslint-plugin-import": "^2.2.0",
