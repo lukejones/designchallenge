@@ -27,8 +27,10 @@
 }
 
 .chevron--creme::before { color: $c-text-darkbg; }
+.chevron--black::before { color: $c-text-lightbg; }
 
 .tc-blueberry { color: $c-blueberry; }
+.tc-dark-blueberry { color: $c-dark-blueberry; font-weight: bold; }
 .tc-apple { color: $c-apple; }
 .tc-cherry { color: $c-cherry; }
 .tc-apricot { color: $c-apricot; }

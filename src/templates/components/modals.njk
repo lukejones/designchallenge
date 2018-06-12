@@ -1,0 +1,66 @@
+{% macro modals() %}
+  {# Contributor modal #}
+  <div class="modal-template" id="contributor-modal">
+    <div class="modal">
+      <div class="modal__content">
+        <button class="modal__close js-modal-close">Close</button>
+        <h2 class="modal__title">Become a contributor!</h2>
+        <p>You can contribute to DesignChallenge.xyz by helping improve our code and add features or by suggesting a challenge or two. To do this, head over to our GitHub and start contributing or email Luke!</p>
+        <ul class="bare-list">
+          <li><a href="#suggest-modal" class="chevron chevron--black js-modal-trigger">Suggest a Challenge</a></li>
+          <li><a href="#register-modal" class="chevron chevron--black js-modal-trigger">Register for Updates</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  {# Suggest modal #}
+  <div class="modal-template" id="suggest-modal">
+    <div class="modal">
+      <div class="modal__content">
+        <button class="modal__close js-modal-close">Close</button>
+        <h2 class="modal__title">Suggest a Challenge</h2>
+        <p>If you do not want to contribute via GitHub, please send a challenge suggestion to <a href="mailto:designchallengexyz@gmail.com">designchallengexyz@gmail.com</a>. Guidelines for challenges are available on <a href="https://github.com/lukejones/designchallenge/wiki/Writing-Guide">GitHub</a>.</p>
+      </div>
+    </div>
+  </div>
+
+  {# Acknowledgements modal #}
+  <div class="modal-template" id="acknowledgement-modal">
+    <div class="modal">
+      <div class="modal__content">
+        <button class="modal__close js-modal-close">Close</button>
+        <h2 class="modal__title">Acknowledgements</h2>
+        <p>This project would not be been possible without the kindness of these people.</p>
+        <dl class="contributor-list">
+          <dt>Contributors</dt>
+          <dd>Damon Charles, Robb Owen, Matthew Morek, Jonathan Day, David Darnes</dd>
+
+          <dt>Design &amp; Dev</dt>
+          <dd>Damon Charles, Robb Owen, Matthew Morek, Jonathan Day, David Darnes</dd>
+
+          <dt>Open-source</dt>
+          <dd>Damon Charles, Robb Owen, Matthew Morek, Jonathan Day, David Darnes</dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+
+  {# Register modal #}
+  <div class="modal-template" id="register-modal">
+    <div class="modal">
+      <div class="modal__content">
+        <button class="modal__close js-modal-close">Close</button>
+        <h2 class="modal__title">Register for updates</h2>
+        <p>This project would not be been possible without the kindness of these people.</p>
+        <form action="https://xyz.us18.list-manage.com/subscribe/post?u=d4b20c19ff53ab3a35edffd33&amp;id=024a5e1297" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate signup-form" target="_blank" novalidate="">
+          <div class="signup-field">
+            <input type="email" value="" name="EMAIL" class="signup-field__input" id="mce-EMAIL" placeholder="Enter email address" required="">
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d4b20c19ff53ab3a35edffd33_024a5e1297" tabindex="-1" value=""></div>
+            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="signup-field__submit">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+{% endmacro %}

@@ -1,0 +1,49 @@
+.signup-form {
+  margin-top: 32px;
+}
+
+.signup-field {
+  @media $from-medium {
+    display: flex;
+    width: 100%;
+  }
+}
+
+.signup-field__input {
+  padding: 20px 32px;
+  font-family: $f-league;
+  border: 2px solid #171715;
+  background: transparent;
+  border-radius: 4px;
+  font-size: 1rem;
+  line-height: 1rem;
+  width: 100%;
+}
+
+.signup-field__submit {
+  cursor: pointer;
+  font-family: $f-league;
+  display: inline-block;
+  padding: 24px 32px 24px 32px;
+  font-size: 1rem;
+  font-weight: bold;
+  background: $c-blueberry;
+  border-radius: 4px;
+  text-align: center;
+  line-height: 1rem;
+  border: none;
+  appearance: none;
+  flex: 1;
+  margin-top: 8px;
+  width: 100%;
+
+  @media $from-medium {
+    margin-top: 0;
+    margin-left: 8px;
+    width: auto;
+  }
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

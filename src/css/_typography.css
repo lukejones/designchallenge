@@ -21,6 +21,10 @@ html {
   -webkit-font-smoothing: antialiased;
 }
 
+.modal-template {
+  display: none !important;
+}
+
 .text-button {
   appearance: none;
   border: none;
@@ -88,5 +92,45 @@ ol:not(.bare-list) li {
     font-weight: bold;
     margin-left: -1.75rem;
     margin-right: 1ex;
+  }
+}
+
+.contributor-list {
+  p + & {
+    margin-top: 24px;
+  }
+
+  dt {
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  dd {
+    font-size: 1rem;
+    line-height: 1.6rem;
+    margin-bottom: 1.5rem;
+  }
+
+  @media $from-medium {
+    dt {
+      float: left;
+      width: 150px;
+      margin-right: 20px;
+      margin-bottom: 0;
+    }
+
+    dd {
+      margin-left: 170px;
+      max-width: 546px;
+      margin-bottom: 40px;
+    }
+
+    dd::after {
+      content: " ";
+      display: block;
+      clear: left;
+    }
   }
 }

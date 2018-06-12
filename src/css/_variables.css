@@ -14,6 +14,7 @@ $t-small: 0.75rem; /* 12px; */
 $c-dark-bg:         #272724; /* Dark background */
 $c-light-bg:        #F8F8F3; /* Light background */
 $c-blueberry:       #1DB5C3; /* Blueberry (background color & action text, e.g. link or button */
+$c-dark-blueberry:  #15858F;
 $c-apple:           #70C445; /* Apple (background color) */
 $c-cherry:          #D84949; /* Cherry (background color) */
 $c-apricot:         #FCB541; /* Apricot (background color) */

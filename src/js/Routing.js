@@ -1,9 +1,11 @@
 import createHistory from 'history/createBrowserHistory';
 import { on } from 'delegated-events';
 
+// TODO: merge this with the modal code to remove doubling up
 class Routing {
   history = createHistory();
   location = history.location;
+  initialTitle = document.title;
 
   bindRoutes = () => {
     // sniff all internal links for routing
@@ -12,6 +14,7 @@ class Routing {
 
       e.preventDefault();
       const targetUrl = e.target.getAttribute('href');
+      console.log(targetUrl);
       this.history.push(targetUrl);
     });
   }
@@ -47,6 +50,8 @@ class Routing {
       .then(body => {
         const parser = new DOMParser();
         const doc = parser.parseFromString(body, "text/html")
+        const title = doc.querySelector('title').innerText;
+        document.title = title;
         const brief = doc.querySelector('.brief');
 
         // rename the back link for async modals
@@ -71,9 +76,17 @@ class Routing {
       if (e.target == overlay) {
         overlay.removeEventListener('animationend', closeAnim);
         overlay.parentNode.removeChild(overlay);
-        this.lockScroll(false);
+
+        // release the page scrolling if there are no more modals
+        if (!document.querySelector('.overlay')) {
+          this.lockScroll(false);
+        }
+
+        // restore the title
+        document.title = this.initialTitle;
       }
     };
+
     overlay.addEventListener('animationend', closeAnim);
     overlay.classList.add('is-closing');
   }
