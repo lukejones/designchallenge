@@ -20,6 +20,12 @@ class Modal {
     });
   }
 
+  handleEscape = e => {
+    if (e.keyCode == 27) {
+      this.closeModal();
+    }
+  }
+
   lockScroll = (isLocked = false) => {
     if (isLocked) {
       document.querySelector('html').classList.add('no-scroll');
@@ -36,6 +42,9 @@ class Modal {
     overlay.classList.add('overlay', 'overlay--modal');
     overlay.innerHTML = template.innerHTML;
     document.querySelector('body').appendChild(overlay);
+
+    // bind the escape key
+    document.addEventListener('keydown', this.handleEscape);
   }
 
   closeModal = () => {
@@ -55,6 +64,9 @@ class Modal {
 
     overlay.addEventListener('animationend', closeAnim);
     overlay.classList.add('is-closing');
+
+    // unbind the escape key
+    document.removeEventListener('keydown', this.handleEscape);
   }
 
   constructor() {

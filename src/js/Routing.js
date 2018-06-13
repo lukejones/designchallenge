@@ -7,14 +7,18 @@ class Routing {
   location = history.location;
   initialTitle = document.title;
 
+  handleEscape = e => {
+    if (e.keyCode == 27 && !document.querySelector('.overlay--modal')) {
+      this.history.goBack();
+    }
+  }
+
   bindRoutes = () => {
     // sniff all internal links for routing
     on('click', '.js-has-routing .js-route', e => {
       if (window.innerWidth < 830) return;
-
       e.preventDefault();
       const targetUrl = e.target.getAttribute('href');
-      console.log(targetUrl);
       this.history.push(targetUrl);
     });
   }
@@ -43,6 +47,9 @@ class Routing {
     const overlay = document.createElement('div');
     overlay.classList.add('overlay', 'is-loading');
     document.querySelector('body').appendChild(overlay);
+
+    // bind the escape key
+    document.addEventListener('keydown', this.handleEscape);
 
     // load route
     fetch(url)
@@ -80,6 +87,7 @@ class Routing {
         // release the page scrolling if there are no more modals
         if (!document.querySelector('.overlay')) {
           this.lockScroll(false);
+
         }
 
         // restore the title
@@ -89,6 +97,9 @@ class Routing {
 
     overlay.addEventListener('animationend', closeAnim);
     overlay.classList.add('is-closing');
+
+    // unbind the escape key
+    document.removeEventListener('keydown', this.handleEscape);
   }
 
   constructor() {
