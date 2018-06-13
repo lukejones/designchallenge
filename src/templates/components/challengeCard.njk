@@ -1,7 +1,7 @@
 {% macro challengeCard(title, url, summary, index) %}
 <div class="challenge-card boxin">
-  <h2 class="challenge-card__title" id="{{ url }}" href="/{{ url }}">
-    <a href="/#{{ url }}" class="anchor" title="{{ title }}">{{ title }}</a>
+  <h2 class="challenge-card__title" id="{{ url }}">
+    <a href="/{{ url }}" class="anchor js-route" title="{{ title }}">{{ title }}</a>
   </h2>
 
   {% if summary %}
