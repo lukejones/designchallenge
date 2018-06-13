@@ -2,7 +2,7 @@
   ID = "designchallengexyz"
 
 [context.production]
-  publish = "/build"
+  publish = "build/"
 
 [context.branch-deploy]
   command = "npm run build"
