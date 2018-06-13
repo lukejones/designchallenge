@@ -16,11 +16,11 @@
   </div>
   <footer class="brief__footer">
     {% if data.author and data.authorurl %}
-      <p>Challenge written by <a href="{{data.authorurl}}">{{data.author}}</a>. Got a challenge? <a href="#suggest-modal" class="js-modal-trigger">Share it on GitHub</a>.</p>
+      <p>Challenge written by <a href="{{data.authorurl}}">{{data.author}}</a>. Got a challenge? <a href="#contribute-modal" class="js-modal-trigger">Become a contributor</a>.</p>
     {% elif data.author and not data.authorurl %}
-      <p>Challenge written by {{data.author}}. Got a challenge? <a href="#suggest-modal" class="js-modal-trigger">Share it on GitHub</a>.</p>
+      <p>Challenge written by {{data.author}}. Got a challenge? <a href="#contribute-modal" class="js-modal-trigger">Become a contributor</a>.</p>
     {% else %}
-      <p>Got a challenge? <a href="#suggest-modal" class="js-modal-trigger">Share it on GitHub</a>.</p>
+      <p>Got a challenge? <a href="#contribute-modal" class="js-modal-trigger">Become a contributor</a>.</p>
     {% endif %}
   </footer>
 </article>
