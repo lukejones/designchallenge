@@ -26,17 +26,17 @@ $c-light-border:    #EBEBE8;
 /* Media Queries */
 $from-small: screen and (min-width: 560px);
 $from-medium: screen and (min-width: 830px);
-$from-large: screen and (min-width: 1120px);
+$from-large: screen and (min-width: 1200px);
 $from-super: screen and (min-width: 1390px);
-$from-ultra: screen and (min-width: 2130px);
+$from-ultra: screen and (min-width: 2435px);
 
 $to-small: screen and (max-width: 559px);
 $to-medium: screen and (max-width: 829px);
-$to-large: screen and (max-width: 1119px);
+$to-large: screen and (max-width: 1199px);
 $to-super: screen and (max-width: 1389px);
-$to-ultra: screen and (max-width: 2129px);
+$to-ultra: screen and (max-width: 2434px);
 
 $small-to-medium: (min-width: 560px) and (max-width: 829px);
-$medium-to-large: (min-width: 830px) and (max-width: 1119px);
-$large-to-super: (min-width: 1120px) and (max-width: 1389px);
-$super-to-ultra: (min-width: 1390px) and (max-width: 2129px);
+$medium-to-large: (min-width: 830px) and (max-width: 1199px);
+$large-to-super: (min-width: 1280px) and (max-width: 1389px);
+$super-to-ultra: (min-width: 1390px) and (max-width: 2434px);

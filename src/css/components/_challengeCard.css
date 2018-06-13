@@ -10,8 +10,8 @@
     width: 100%;
   }
 
-  @media $medium-to-large,
-  screen and (min-width: 1624px) and (max-width: 2129px) {
+  @media screen and (min-width: 1080px) and (max-width: 1199px),
+  screen and (min-width: 1890px) and (max-width: 2434px) {
     width: 50%;
   }
 
