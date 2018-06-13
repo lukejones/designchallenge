@@ -1,12 +1,13 @@
 @font-face {
-  font-family: 'LeagueMono-Light';
+  font-family: 'LeagueMono';
   src: url('/assets/fonts/LeagueMono-Light.woff2') format('woff2'), /* Super Modern Browsers */
        url('/assets/fonts/LeagueMono-Light.woff') format('woff'), /* Pretty Modern Browsers */
        url('/assets/fonts/LeagueMono-Light.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
 
 @font-face {
-  font-family: 'LeagueMono-SemiBold';
+  font-family: 'LeagueMono';
+  font-weight: 700;
   src: url('/assets/fonts/LeagueMono-SemiBold.woff2') format('woff2'), /* Super Modern Browsers */
        url('/assets/fonts/LeagueMono-SemiBold.woff') format('woff'), /* Pretty Modern Browsers */
        url('/assets/fonts/LeagueMono-SemiBold.ttf')  format('truetype'); /* Safari, Android, iOS */

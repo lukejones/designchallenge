@@ -1,46 +1,27 @@
-@import "_fonts";
 @import "_variables";
+@import "_reset";
+@import "_typography";
+@import "_forms";
+@import "_utilities";
 
-html {
-  font-family: $f-league-light;
+@import "./components/_masthead";
+@import "./components/_introPanel";
+@import "./components/_challengeList";
+@import "./components/_challengeCard";
+@import "./components/_brief";
+@import "./components/_overlay";
+@import "./components/_modal";
+
+*, *::before, *::after {
+  box-sizing: border-box;
 }
 
-.main {
-  margin: 100px auto;
-  max-width: 800px;
-  width: calc(100% - 40px);
-}
+body {
+  background: $c-dark-bg;
+  margin: 0;
+  padding-top: 82px;
 
-.challenge-list {
-  list-style: none;
-  padding-left: 0;
-
-  &__item:not(:last-child) {
-    padding-bottom: 20px;
-    border-bottom: 1px solid #aaa;
-    margin-bottom: 20px;
-  }
-}
-
-.challenge {
-  &__link {
-    font-size: 1.25em;
-    text-decoration: none;
-
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-
-  p {
-    margin: 10px 0 0;
-  }
-}
-
-.back-link {
-  text-decoration: none;
-  
-  &:hover {
-    text-decoration: underline;
+  @media $from-small {
+    padding-top: 92px;
   }
 }

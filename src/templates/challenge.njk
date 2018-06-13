@@ -1,8 +1,30 @@
 {% extends "./layout.njk" %}
 
+{% set pageTitle = data.title %}
+
 {% block main %}
-<a href="/" class="back-link">< Back to index</a>
-<h1>{{ data.title }}</h1>
-{{ content | safe }}
+
+<article class="brief">
+  <header class="brief__header">
+    <a href="/" class="back-link js-route">&lt; Go Back</a>
+    <a href="https://github.com/lukejones/designchallenge/tree/master/{{filename}}">View on GitHub</a>
+    <button class="js-clipboard text-button">Copy URL</button>
+  </header>
+  <div class="brief__content">
+    <h1 class="brief__title">{{ data.title }}</h1>
+    {{ content | safe }}
+  </div>
+  <footer class="brief__footer">
+    {% if data.author and data.authorurl %}
+      <p>Challenge written by <a href="{{data.authorurl}}">{{data.author}}</a>. Got a challenge? <a href="#contribute-modal" class="js-modal-trigger">Become a contributor</a>.</p>
+    {% elif data.author and not data.authorurl %}
+      <p>Challenge written by {{data.author}}. Got a challenge? <a href="#contribute-modal" class="js-modal-trigger">Become a contributor</a>.</p>
+    {% else %}
+      <p>Got a challenge? <a href="#contribute-modal" class="js-modal-trigger">Become a contributor</a>.</p>
+    {% endif %}
+  </footer>
+</article>
+
+
 {% endblock %}
 
