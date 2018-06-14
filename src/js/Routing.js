@@ -13,6 +13,25 @@ class Routing {
     }
   }
 
+  handlClickOutsideBrief = e => {
+    const brief = document.querySelector('.brief');
+    if (brief) {
+      // add event listener to close brief if clicking outside it
+      let targetElement = e.target; // clicked element
+      do {
+        if (targetElement == brief) {
+          // we are already on the brief - yay! no action needed - stop here.
+          return;
+        }
+        // Go up the DOM from where we clicked.
+        targetElement = targetElement.parentNode;
+      } while (targetElement);
+
+      // clicked outside the brief! let's close it.
+      this.history.goBack();
+    }
+  }
+
   bindRoutes = () => {
     // sniff all internal links for routing
     on('click', '.js-has-routing .js-route', e => {
@@ -50,6 +69,8 @@ class Routing {
 
     // bind the escape key
     document.addEventListener('keydown', this.handleEscape);
+    // bind checking for clicks outside the brief modal
+    document.addEventListener('click', this.handlClickOutsideBrief);
 
     // load route
     fetch(url)
@@ -100,6 +121,8 @@ class Routing {
 
     // unbind the escape key
     document.removeEventListener('keydown', this.handleEscape);
+    // unbind checking for clicks outside the brief modal
+    document.removeEventListener('click', this.handlClickOutsideBrief);
   }
 
   constructor() {
