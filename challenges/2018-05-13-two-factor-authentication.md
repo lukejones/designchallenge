@@ -1,6 +1,6 @@
 ---
 title: Two-Factor Authentication on iOS
-summary: As security and privacy become more important, so does two-factor authentication. This exercise is to introduce two-factor authentication to an established application in an intuitive manner, and then encourage the users of the application to opt-in to the new security measures.
+summary: As security and privacy become more important, so does two-factor authentication. This exercise is to introduce two-factor authentication to an established application in an intuitive manner, then figure out how to encourage the users of the application to opt-in to these essential new security measures.
 author: Luke Jones
 authorurl: https://lukejones.me
 ---
