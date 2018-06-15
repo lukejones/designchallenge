@@ -33,11 +33,15 @@ html {
   color: inherit;
   text-transform: inherit;
   font: inherit;
-  text-decoration: none;
   cursor: pointer;
-
+  text-decoration: underline;
   &:hover {
-    text-decoration: underline;
+    text-decoration: none;
+  }
+  &.disabled {
+    text-decoration: none;
+    color: $c-text-grey;
+    cursor: default;
   }
 }
 

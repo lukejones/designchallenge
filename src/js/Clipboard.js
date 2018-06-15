@@ -16,7 +16,8 @@ class Clipboard {
   bindClipbuttons = () => {
     on('click', '.js-clipboard', e => {
       this.copyText(window.location.href);
-      e.target.innerText = 'Copied!';
+      e.target.classList.add('disabled');
+      e.target.innerText = 'Copied Link';
     });
   }
 
