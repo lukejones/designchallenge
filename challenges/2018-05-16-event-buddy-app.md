@@ -5,6 +5,8 @@ author: Lisa Guo
 authorurl: http://lisaguo.design
 ---
 
+Sometimes people want to go to an event (concert, museum exhibit, etc.) that none of their friends are interested in. These people might not want to experience the event alone, so they forego the opportunity. Create an app to allow people like this to find one or more person to go to the show with them.
+
 This mobile application is about making friends and spending time with people, so consider what people might want to learn before messaging others to go to the event together. It should feel like a safe environment, so think carefully about the application design and available features.
 
 Please propose a design for the event search, user profile, and event meetup confirmation while keeping in mind the overall functionality and structure.
