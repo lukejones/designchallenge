@@ -1,6 +1,6 @@
 ---
 title: Supermarket Product Finder
-summary: Help people in supermarkets figure out where they can get that difficult-to-find product and put it in their basket.
+summary: Help people in supermarkets figure out where they can get that difficult-to-find product and put it in their basket. This application should be for broad use by anybody who might use a supermarket and has a device, it could even be an interface near the customer services points throughout a store – you decide!
 author: Luke Jones
 authorurl: https://lukejones.me
 ---

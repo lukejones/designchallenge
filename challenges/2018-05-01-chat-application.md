@@ -1,6 +1,6 @@
 ---
 title: Chat Application
-summary: This exercise is to design the home screen for an iOS app based around “discussions” or chat rooms. The app has a number of predetermined “channels” based on topics such as cooking, science, and movies. Users can participate in or create new “discussions” to go within any of the channels (e.g. “What is the best kind of rice?” in the cooking channel).
+summary: This exercise is to design the home screen for an iOS app based around “discussions” or chat rooms. The app has a number of predetermined “channels” based on topics such as cooking, science, and movies. Users can participate in or create new “discussions” to go within any of the channels (e.g. “What is the best kind of rice?”).
 author: Luke Jones
 authorurl: https://lukejones.me
 ---

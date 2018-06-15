@@ -1,6 +1,6 @@
 ---
 title: Checkout Flow
-summary: Converting site exploration to a sale is the most important aspect of e-commerce design and many users drop out during the checkout flow. This exercise is to create a checkout experience that encourages the user to go through with a full purchase.
+summary: Converting site exploration to a sale is the most important aspect of e-commerce design and many users drop out at the most important point of their journey - when they are about to finalize their purchase. This exercise is to create a checkout experience that encourages the user to go through with a full purchase.
 author: Luke Jones
 authorurl: https://lukejones.me
 ---
@@ -26,10 +26,3 @@ Keep in mind that these are not the only features that might be required, and yo
 * Good usability.
 * Appropriate aesthetics for the demographic, tone, mobile/touch paradigms, etc.
 * Insight into your process, including any sketches, brainstorms, notes, wireframes, and assumptions on the product.
-
-
-
-#
-
-Imagine you’ve added a product to your cart and you want to pay for the product and get it delivered to your work address.
-

@@ -1,6 +1,6 @@
 ---
 title: Spotify Artist Catalogue Manager
-summary: A Mac-based editor and artist management system that allows artists to manage their presence on Spotify. The solution should account for all existing artist content on Spotify but feel free to get creative and add additional features that an artist might find useful.
+summary: Spotify has decided to give artists control of their catalogues on their platform. A Mac-based editor and artist management system that allows artists to manage their presence on Spotify. The solution should account for all existing artist content on Spotify but feel free to get creative and add additional features that an artist might find useful.
 author: WeWork
 authorurl: https://blog.prototypr.io/product-design-exercises-we-use-at-wework-interviews-2ee1f5a57319
 ---
