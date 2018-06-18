@@ -13,14 +13,15 @@ class Routing {
     }
   }
 
-  handlClickOutsideBrief = e => {
+  handleClickOutsideBriefOrMastHead = e => {
     const brief = document.querySelector('.brief');
+    const masthead = document.querySelector('.masthead');
     if (brief) {
       // add event listener to close brief if clicking outside it
       let targetElement = e.target; // clicked element
       do {
-        if (targetElement == brief) {
-          // we are already on the brief - yay! no action needed - stop here.
+        if (targetElement == masthead || targetElement == brief) {
+          // we are already on the brief  or masthead - yay! no action needed - stop here.
           return;
         }
         // Go up the DOM from where we clicked.
@@ -69,8 +70,8 @@ class Routing {
 
     // bind the escape key
     document.addEventListener('keydown', this.handleEscape);
-    // bind checking for clicks outside the brief modal
-    document.addEventListener('click', this.handlClickOutsideBrief);
+    // bind checking for clicks outside the brief modal or masthead
+    document.addEventListener('click', this.handleClickOutsideBriefOrMastHead);
 
     // load route
     fetch(url)
@@ -122,7 +123,7 @@ class Routing {
     // unbind the escape key
     document.removeEventListener('keydown', this.handleEscape);
     // unbind checking for clicks outside the brief modal
-    document.removeEventListener('click', this.handlClickOutsideBrief);
+    document.removeEventListener('click', this.handleClickOutsideBriefOrMastHead);
   }
 
   constructor() {
