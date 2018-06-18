@@ -1,6 +1,6 @@
 ---
 title: Artist Critique App
-summary: To get early feedback on creative ideas before sharing with the world. Write a user narrative for the following scenario that could be used to facilitate a 30 minute collaborative sketching session between designers, PMs, researchers, and engineers.
+summary: An instagram-like app for creatives to give critique to each other and highlight cool new ideas with the artistic community. To get early feedback on creative ideas before sharing with the world. Write a user narrative for the following scenario that could be used to facilitate a 30 minute collaborative sketching session between team members.
 author: Jessica Crabb
 authorurl: https://twitter.com/jessicaanncrabb
 ---
@@ -15,7 +15,7 @@ To get early feedback on creative ideas before sharing with the world. Write a u
 
 ## Early Solution Idea
 
-An instagram-like app for creatives to give critique to each other and highlight cool new ideas with the artistic community
+An instagram-like app for creatives to give critique to each other and highlight cool new ideas with the artistic community.
 
 ## Narrative
 

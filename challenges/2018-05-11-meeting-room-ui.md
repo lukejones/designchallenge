@@ -1,11 +1,11 @@
 ---
 title: Meeting Room UI
-summary: A user interface on a small or large screen to let someone know whether a meeting room is free, how long for, and allow the person to book on the spot if necessary.
+summary: Communication in large offices is a challenge, and booking some space to run a meeting or have a private call shouldn’t be difficult. A user interface on a small or large screen to let someone know whether a meeting room is free, how long for, and allow the person to book on the spot if necessary.
 author: Luke Jones
 authorurl: https://lukejones.me
 ---
 
-This exercise is to design a user interface on a small or large screen to let someone know whether a meeting room is free, how long for, and allow the person to book on the spot if necessary.
+Communication in large offices is a challenge, and booking some space to run a meeting or have a private call shouldn’t be difficult. This exercise is to design a user interface on a small or large screen to let someone know whether a meeting room is free, how long for, and allow the person to book on the spot if necessary.
 
 This application is intended for use by anybody who might need a meeting room in a large office. You should consider that the people requiring the room might need it urgently, there may already be people in the room, they might only need it for 10-15 minutes, and that there might be more than one meeting room in the building.
 

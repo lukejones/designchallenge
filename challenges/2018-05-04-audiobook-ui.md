@@ -1,6 +1,6 @@
 ---
 title: Audiobook UI
-summary: Design an Audiobook or Podcasting mobile app that is highly personal, highly interactive and with the ability to bring even more utility to the user than a book ever could.
+summary: Audiobooks and podcasting are the fastest growing audio segments on mobile. Users who listen to audiobooks don’t enjoy the benefits of dog-earing pages, highlighting excerpts or leaving notes on their favorite pages… Design an Audiobook or Podcasting mobile app that is highly personal and highly interactive.
 author: WeWork
 authorurl: https://blog.prototypr.io/product-design-exercises-we-use-at-wework-interviews-2ee1f5a57319
 ---

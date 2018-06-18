@@ -21,19 +21,16 @@
   padding: 32px;
   font-size: $t-small;
   line-height: 1.125rem;
-  text-transform: uppercase;
 
   .back-link {
     flex: 1;
+    font-weight: bold;
   }
 
-  a {
+  button {
     margin-right: 1.5rem;
-    text-decoration: none;
-    &:hover {
-      text-decoration: underline;
-    }
   }
+
 }
 
 .brief__content {

@@ -1,6 +1,6 @@
 ---
 title: Lamp Product Cards
-summary: Anglepoise has decided it wants to create a more compelling way for people to view, understand, and purchase their popular 1227 lamps.
+summary: Anglepoise has decided it wants to create a more compelling way for people to view, understand, and purchase their popular 1227 lamps. Design a web-based compelling product page or product list to encourage users to click through and purchase one of these modern, luxury lamps for their home or office.
 author: Luke Jones
 authorurl: https://lukejones.me
 ---

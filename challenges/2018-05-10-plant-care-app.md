@@ -1,6 +1,6 @@
 ---
 title: Plant Care App
-summary: Design an application that helps people take care of their plants at a basic level. This app should consider multiple kinds of plants requirements, notifications, and other tips around plant care.
+summary: Milennials understand the important of a plant-rich, organic feel in their homes and are buying plants without knowing how to look after them. Design an application that helps people take care of their plants at a basic level. This app should consider multiple kinds of plants requirements, notifications, and other tips around plant care.
 author: Luke Jones
 authorurl: https://lukejones.me
 ---

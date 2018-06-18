@@ -1,13 +1,13 @@
 ---
 title: Voting App
-summary: Voting is complicated, yet hugely important. Create a method of allowing people to vote while considering things like security, fake voters, voting verification, and people who do not have IDs.
+summary: Voting is a complicated, yet hugely important process in the democratic world. Create a mobile application that allows people anywhere to understand what they are voting for and cast votes while considering things like security, fake voters, voting verification, and whether or not the user has any forms of identification.
 author: Luke Jones
 authorurl: https://lukejones.me
 ---
 
-Voting is complicated, yet hugely important. Create a method of allowing people to vote while considering things like security, fake voters, voting verification, and people who do not have IDs. Consider how the physical world could benefit the digital world.
+Voting is a complicated, yet hugely important process in the democratic world. Create a mobile application that allows people anywhere to understand what they are voting for and cast votes while considering things like security, fake voters, voting verification, and people who do not have IDs. 
 
-Design a mobile app that provides an easy way for people to vote in local or national elections. Take into consideration voter verification and voter location.
+Design a mobile app that provides an easy way for people to vote in local or national elections. Take into consideration voter verification and voter location. Consider how the physical world could benefit the digital world.
 
 Design 2-3 screens to communicate the flow (3 screens maximum).
 
