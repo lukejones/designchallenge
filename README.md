@@ -9,6 +9,8 @@ The core plan for the platform won’t change, and should always follow these su
 * To prioritize speed, stability, and security above all else.
 * To be updated with new challenges and features in an organic manner.
 
+***
+
 ## Contributions
 
 ### How to Contribute
@@ -41,6 +43,8 @@ These people have provided valuable help on this project, please follow them and
 #### Codex
 
 * [League Mono](https://www.theleagueofmoveabletype.com/league-mono) by [Tyler Finck](https://twitter.com/typeler) 
+
+***
 
 ## Writing Guide
 
