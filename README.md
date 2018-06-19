@@ -30,6 +30,7 @@ These people have provided valuable help on this project, please follow them and
 * Matthew Morek - [Twitter](https://twitter.com/matthewmorek), [GitHub](https://github.com/matthewmorek)
 * Robb Owen - [Twitter](https://twitter.com/Robb0wen), [GitHub](https://github.com/Robb0wen)
 * David Darnes - [Twitter](https://twitter.com/DavidDarnes), [GitHub](https://github.com/daviddarnes)
+* Al Power - [Twitter](https://twitter.com/alpower), [GitHub](https://github.com/alpower)
 
 #### Design
 
@@ -39,6 +40,7 @@ These people have provided valuable help on this project, please follow them and
 #### Writers
 
 * Jessica Crabb - [Twitter](https://twitter.com/jessicaanncrabb), [Portfolio](http://jessicacrabb.com/)
+* Lisa Guo - [Portfolio](http://lisaguo.design)
 
 #### Codex
 
