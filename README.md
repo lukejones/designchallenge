@@ -7,7 +7,9 @@ The core plan for the platform won’t change, and should always follow these su
 * To prioritize speed, stability, and security above all else.
 * To be updated with new challenges and features in an organic manner.
 
-## How to Contribute
+## Contributions
+
+### How to Contribute
 
 There are a few ways to contribute to Design Challenge:
 
@@ -15,26 +17,26 @@ There are a few ways to contribute to Design Challenge:
 2. By building ideas or fixing issues here on GitHub.
 3. Sharing a challenge by emailing [designchallengexyz@gmail.com](mailto:designchallengexyz@gmail.com).
 
-## Contributors
+### Contributors
 
 These people have provided valuable help on this project, please follow them and support their work as much as possible.
 
-### Front-end Development
+#### Front-end Development
 
 * Matthew Morek - [Twitter](https://twitter.com/matthewmorek), [GitHub](https://github.com/matthewmorek)
 * Robb Owen - [Twitter](https://twitter.com/Robb0wen), [GitHub](https://github.com/Robb0wen)
 * David Darnes - [Twitter](https://twitter.com/DavidDarnes), [GitHub](https://github.com/daviddarnes)
 
-### Design
+#### Design
 
 * Luke Jones - [Twitter](https://twitter.com/lukejones), [Portfolio](https://lukejones.me)
 * Damon Charles - [Twitter](https://twitter.com/CosmoCheese), [Portfolio](http://damoncharles.com)
 
-### Writers
+#### Writers
 
 * Jessica Crabb - [Twitter](https://twitter.com/jessicaanncrabb), [Portfolio](http://jessicacrabb.com/)
 
-### Codex
+#### Codex
 
 * [League Mono](https://www.theleagueofmoveabletype.com/league-mono) by [Tyler Finck](https://twitter.com/typeler) 
 
