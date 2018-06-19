@@ -15,7 +15,7 @@ There are a few ways to contribute to Design Challenge:
 
 1. By submitting ideas or flagging issues here on GitHub.
 2. By building ideas or fixing issues here on GitHub.
-3. Sharing a challenge by emailing [designchallengexyz@gmail.com](mailto:designchallengexyz@gmail.com).
+3. Sharing a challenge by emailing [designchallengexyz@gmail.com](mailto:designchallengexyz@gmail.com), the writing guide is further down this document.
 
 ### Contributors
 
@@ -39,6 +39,48 @@ These people have provided valuable help on this project, please follow them and
 #### Codex
 
 * [League Mono](https://www.theleagueofmoveabletype.com/league-mono) by [Tyler Finck](https://twitter.com/typeler) 
+
+## Writing Guide
+
+To ensure consistency and quality across all design challenges on the website, every submitted and published challenge should follow the same template.
+
+Please ensure that all language in the challenges is gender-inclusive, such as them, they, and individuals. More examples of how to use gender-inclusive language are available at [The Writing Center](https://writingcenter.unc.edu/tips-and-tools/gender-inclusive-language/).
+
+Visit [DesignChallenge.xyz](https://designchallenge.xyz) to view live examples of challenges.
+
+### Template
+
+#### Title of Exercise
+
+Short and simple, anywhere between one and five words.
+
+*Example:* Lamp Product Page
+
+#### Introduction
+
+One paragraph introduction to describe what the problem is to the reader. This will be used as the intro on DesignChallenge.xyz.
+
+*Example:* Anglepoise has decided it wants to create a more compelling way for people to view, understand, and purchase their popular 1227 lamps.
+
+#### The Task
+
+One paragraph to describe the precise thing which the person should be designing for This should leave no ambiguity as to what the focus of the task is.
+
+*Example:* Design a web-based product page or product list to encourage users to purchase the lamp. The description, price, and dimensions of the product should be highlighted, but think of compelling ways to get people to add the item to their basket.
+
+#### Limitations
+
+One paragraph to explain any limitations there might be on the project.
+
+*Example:* If you need to design a second screen to communicate your ideas, please do, but 2 screens maximum.
+
+#### Deliverables and Expectations
+
+A list of expectations for the project.
+
+*Example:* Good usability, consideration for first- and long-time users, appropriate aesthetics for demographic, tone, mobile/touch paradigms, and an insight into the process (e.g. sketches, brainstorms, notes, wireframes, assumptions, research).
+
+***
 
 ## Privacy Policy 
 
