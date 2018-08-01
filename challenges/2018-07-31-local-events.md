@@ -1,4 +1,3 @@
-
 ---
 title: Local Events App
 summary: Many people want to leave popular social networks but are concerned leaving would mean no longer being notified about local events. Imagine an experience which allowed users to create, share, attend, or be notified about certain events. Keep in mind that people may have different tests or some events may not be of interest to them, and that the creator may be a business.
