@@ -1,24 +1,27 @@
 ---
-title: HIIT Workout Timer
-summary: Following the success of circuit training programs like CrossFit, a lot of individuals are taking to high intensity interval training (HIIT). Design the workflow required for someone to create a timer specifically for HIIT workouts, paying particular attention to the visual feedback given to the user mid-workout.
+title: Metro Card UI
+summary: The introduction of ‘metro cards’ on rail networks across the world have made travel much easier, but that does not mean purchasing or topping-up the card is simple. For this exercise, redesign the workflow for somebody either buying or topping up a metro card while in a metro station anywhere around the globe. Keep in mind that this is likely a touch interface on a proprietary screen in a metro station.
 author: Luke Jones
 authorurl: https://lukejones.me
 ---
-Following the success of circuit training programs like CrossFit, a lot of individuals are taking to high intensity interval training (HIIT). HIIT workouts require the athlete to perform at high intensity for certain periods of time with a rest in between, with a typical workout looking like 10 rounds of an exercise, with a 45 second rest in between. 
+The introduction of ‘metro cards’ on rail networks across the world have made travel much easier, but that does not mean purchasing or topping-up the card is simple. For this exercise, redesign the workflow for somebody either buying or topping up a metro card while in a metro station anywhere around the globe. Keep in mind that this is likely a touch interface on a proprietary screen in a metro station.
 
-Design the workflow required for someone to create a timer specifically for HIIT workouts, paying particular attention to the visual feedback given to the user mid-workout. Keep in mind the context of the person using the application, they might be in a noisy gym some distance away from the device, so you may need to ensure the screen is readable and the required information is conveyed.
+Further things to consider are:
 
-Design a maximum of 2-4 screens for either web or mobile, providing as much background thinking as you can.
+* This should be mass-market and usable by people from any background or major language (not just English).
+* Differing contrasts for dimly- or brightly-lit environments.
+* People might be in a rush.
+
+For bonus points, use the design language of a rail network local to you.
 
 ## Features
 
 The application could include:
 
-* Different timers displays.
-* Complex time inputs.
-* Rounds with different times.
-* Warm-up and warm-down.
-* Aural feedback.
+* Multiple languages.
+* Multiple forms of payment.
+* Purchasing a card.
+* Checking remaining credit.
 
 Keep in mind that these are not the only features that might be required, and you should use your initiative to ensure a usable and interesting experience.
 
