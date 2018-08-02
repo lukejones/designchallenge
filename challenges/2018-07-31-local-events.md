@@ -29,7 +29,7 @@ The application could include:
 
 Keep in mind that these are not the only features that might be required, and you should use your initiative to ensure a usable and interesting experience.
 
-##Please Prioritize
+## Please Prioritize
 
 * Good usability.
 * Appropriate aesthetics for the demographic, tone, mobile/touch paradigms, etc.
