@@ -1,8 +1,8 @@
-`PROJECT ON HIATUS`
+`~~~~~~~~~~ PROJECT ON HIATUS ~~~~~~~~~~`
 
 # Design Challenge Readme
 
-[Design Challenge](https://designchallenge.xyz) is a directory of challenges created to test the processes and creativity of any designer in settings such as mentoring, hiring, and self-improvement of skills.
+Design Challenge was a directory of challenges created to test the processes and creativity of any designer in settings such as mentoring, hiring, and self-improvement of skills.
 
 The core plan for the platform won’t change, and should always follow these super simple principles:
 
@@ -21,7 +21,7 @@ There are a few ways to contribute to Design Challenge:
 
 1. By submitting ideas or flagging issues here on GitHub.
 2. By building ideas or fixing issues here on GitHub.
-3. Sharing a challenge by emailing [designchallengexyz@gmail.com](mailto:designchallengexyz@gmail.com), the writing guide is further down this document.
+3. Sharing a challenge by emailing (email removed), the writing guide is further down this document.
 
 ### Contributors
 
@@ -55,8 +55,6 @@ These people have provided valuable help on this project, please follow them and
 To ensure consistency and quality across all design challenges on the website, every submitted and published challenge should follow the same template.
 
 Please ensure that all language in the challenges is gender-inclusive, such as them, they, and individuals. More examples of how to use gender-inclusive language are available at [The Writing Center](https://writingcenter.unc.edu/tips-and-tools/gender-inclusive-language/).
-
-Visit [DesignChallenge.xyz](https://designchallenge.xyz) to view live examples of challenges.
 
 ### Template
 
@@ -103,5 +101,3 @@ Above all else, DesignChallenge.xyz is created to be open, honest, inclusive, an
 * The site will always have a secure connection (HTTPS) to ensure that any data transferred is encrypted.
 
 We are not experts in writing privacy policies, so if you see any flaws in this please let us know. It is not our desire to have difficult to read language anywhere in this experience.
-
-The full privacy policy can be viewed on [DesignChallenge.xyz](https://designchallenge.xyz).
