@@ -1,3 +1,5 @@
+`PROJECT ON HIATUS`
+
 # Design Challenge Readme
 
 [Design Challenge](https://designchallenge.xyz) is a directory of challenges created to test the processes and creativity of any designer in settings such as mentoring, hiring, and self-improvement of skills.
